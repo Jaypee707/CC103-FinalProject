@@ -38,7 +38,7 @@ public class NumberGuesserGame extends JFrame {
         setSize(550, 480);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        getContentPane().setBackground(new Color(255, 228, 240)); // Light pink
+        getContentPane().setBackground(new Color(255, 228, 240)); 
 
         // Layout
         setLayout(new GridBagLayout());
@@ -120,7 +120,7 @@ public class NumberGuesserGame extends JFrame {
         txtGuess = new JTextField();
         txtGuess.setFont(new Font("Arial", Font.PLAIN, 18));
         txtGuess.setHorizontalAlignment(JTextField.CENTER);
-        txtGuess.setBackground(new Color(255, 255, 224)); // Light yellow
+        txtGuess.setBackground(new Color(255, 255, 224)); 
         gbc.gridy = 4;
         gbc.fill = GridBagConstraints.HORIZONTAL;
         gbc.fill = GridBagConstraints.NONE;
